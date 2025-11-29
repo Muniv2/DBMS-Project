@@ -3,7 +3,6 @@ print("🚀 Starting Spotify Application...")
 
 # Import our modules
 from database import Database
-from utils.session_manager import SessionManager
 from modules.auth.login import LoginWindow
 from modules.auth.register import RegisterWindow
 from modules.uploader.dashboard import UploaderDashboard
@@ -15,7 +14,6 @@ class MainApp:
         
         # Initialize core components
         self.db = Database()
-        self.session = SessionManager()
         
         # Initialize all windows
         self.login_window = LoginWindow(self)

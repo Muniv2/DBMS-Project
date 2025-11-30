@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>588</width>
-    <height>363</height>
+    <width>575</width>
+    <height>353</height>
    </rect>
   </property>
   <property name="font">
@@ -67,7 +67,7 @@
     <string>Artist Name</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="artistLineEdit">
+  <widget class="QLineEdit" name="artistNameLine">
    <property name="enabled">
     <bool>false</bool>
    </property>
@@ -200,7 +200,7 @@
     <string>Purchase</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="cancelPB">
+  <widget class="QPushButton" name="cancelButton">
    <property name="geometry">
     <rect>
      <x>840</x>
@@ -213,7 +213,7 @@
     <string>Cancel</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="proceedButton">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -226,7 +226,7 @@
     <string>Proceed to checkout</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="backButton">
    <property name="geometry">
     <rect>
      <x>380</x>

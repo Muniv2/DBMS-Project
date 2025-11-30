@@ -77,7 +77,7 @@
      <string>Artist:</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="billlineedit">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -95,7 +95,7 @@
      <string>Bill:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="songLine">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -105,7 +105,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="artistLine">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -115,7 +115,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="billLine">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -125,7 +125,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="purchaseButton">
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -138,7 +138,7 @@
      <string>Purchase</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="backButton">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -158,7 +158,7 @@
      <x>0</x>
      <y>0</y>
      <width>469</width>
-     <height>17</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>

@@ -1,6 +1,8 @@
+
 import pyodbc
 
 # SQL Server details
+# server = 'DESKTOP-C8QPI4F'
 server = 'ALI-MAHMOODI'
 database = 'spotify_project'  # Our database name
 use_windows_authentication = True
@@ -64,6 +66,7 @@ class Database:
                 """
                 CREATE TABLE Song (
                     songID INT IDENTITY(1,1) PRIMARY KEY,
+                    artistName NVARCHAR(255),     
                     songName NVARCHAR(255) NOT NULL,
                     genre NVARCHAR(100),
                     paid BIT DEFAULT 0,
@@ -71,7 +74,8 @@ class Database:
                     songFile NVARCHAR(255),
                     songViewCount INT DEFAULT 0,
                     songLikeCount INT DEFAULT 0
-                )
+                );
+
                 """,
                 
                 # Upload relationship table

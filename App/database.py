@@ -3,8 +3,11 @@ import pyodbc
 
 # SQL Server details
 # server = 'DESKTOP-C8QPI4F'
-server = 'ALI-MAHMOODI'
-database = 'spotify_project'  # Our database name
+# server = 'ALI-MAHMOODI'
+server = 'SHAMEERS-ZBOOK\ABEERSQLSERVER1'
+
+
+database = 'spotify_db'  # Our database name
 use_windows_authentication = True
 username = ''
 password = ''
